@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Cambay:400,400i,700|Cormorant+Infant:300,300i,400,400i&display=swap'); 
+/* descriptions/body >> font-family: 'Cambay', sans-serif;*/
+/* headings and titles >> font-family: 'Montserrat', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cambay', sans-serif;
+}
+
+body{
+    background: none;
+}
+
+h1, h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 200;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+/* 
+.navbar-fixed-top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(101, 124, 157, 1);
+} */
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;    
+    color: #657C9D;
+    font-size: .7rem;
+}
+
+#navBar .nav-link:hover{
+    color: #D6558B;
+    text-transform: uppercase;
+}
+
+.container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.jumbotron{
+    background: url(/assets/img/golden.jpeg); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+#quote, #quotePerson{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#mainQuote{
+    padding-left: 50px;
+    letter-spacing: 0.5px;
+}
+
+#quotePerson{
+    font-style: italic;
+    float: left;
+}
+
+.monEmp{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.subT{
+    font-size: 0.5em;
+}
